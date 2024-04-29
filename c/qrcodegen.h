@@ -61,6 +61,7 @@ enum qrcodegen_Ecc {
 	qrcodegen_Ecc_MEDIUM  ,  // The QR Code can tolerate about 15% erroneous codewords
 	qrcodegen_Ecc_QUARTILE,  // The QR Code can tolerate about 25% erroneous codewords
 	qrcodegen_Ecc_HIGH    ,  // The QR Code can tolerate about 30% erroneous codewords
+	qrcodegen_Ecc_MAX = 0x7FFFFFFF,
 };
 
 
